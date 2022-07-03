@@ -1,0 +1,117 @@
+.faculty-schedule {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.faculty-timeslots {
+  height: 90px;
+}
+.faculty-days {
+  height: 100px;
+  margin-bottom: 1px;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faculty-times {
+    height: 100px;
+        margin-bottom: 1px;
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.faculty-name{
+  width: 150px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.faculty-empty{
+width: 150px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faculty-all-slots {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+.faculty-slot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 130px;
+    height: 80px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #E76360;
+    border-radius: 4px;
+  }
+.faculty-slot-std-page {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+display: flex;
+    flex-direction: column;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 130px;
+    height: 80px;
+    
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #E76360;
+    border-radius: 4px;
+}
+.time-slot{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 24px; */
+    /* gap: 4px; */
+
+    /* position: absolute; */
+    width: 130px;
+    height: 30px;
+    font-weight: 700;
+    font-size: small;
+    /* left: 258px;
+    top: 265px; */
+
+   
+    border-radius: 4px;
+}
+.faculty-slot-break {
+    width: 10px;
+}
+.faculty-slot-lunch{
+    width: 40px;
+}
+.faculty-form-buttons{
+  width: 210px;
+  margin: 10px;
+  height: 50px;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 10px;
+}
+
+.form-come-centre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

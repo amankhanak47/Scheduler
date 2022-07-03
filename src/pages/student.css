@@ -1,0 +1,28 @@
+.student{
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column; */
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.student-input{
+    height: 40px;
+    width: 300px;
+    margin: 0px 10px;
+}
+.student-search-btn{
+    height: 40px;
+    width: 120px;
+    background: #2F8F9D;
+    border-color: #2F8F9D;
+    color: white;
+    border-radius: 5px  ;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
